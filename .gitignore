@@ -1,0 +1,28 @@
+# Секреты и переменные окружения
+.env
+*.env
+!*.env.example
+
+# Конфигурации и ключи WireGuard
+*.conf
+*.key
+data/
+clients/
+
+# Архивы бэкапов
+*.tar.gz
+*.zip
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Системные файлы и IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
