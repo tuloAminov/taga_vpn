@@ -46,7 +46,7 @@ ssh root@<IP_ВАШЕГО_СЕРВЕРА>
 Выполните одну цепочку команд:
 ```bash
 apt-get update && apt-get install -y git
-git clone https://github.com/<your-username>/vpn_taga.git /opt/vpn_taga || mkdir -p /opt/vpn_taga
+git clone https://github.com/tuloAminov/taga_vpn.git /opt/vpn_taga || mkdir -p /opt/vpn_taga
 cd /opt/vpn_taga
 ```
 *(Или просто скопируйте файлы `docker-compose.yml` и `setup.sh` на сервер)*.
